@@ -1,69 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Annalisa Alden</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-	<nav>
-		<div class="container">
-			<a href="index.html">
-				<div class="logo">
-					<h1>Annalisa Alden</h1>
-				</div>
-			</a>
-			<div>
-				<ul class="nav-list">
-					<li><a href="index.html">About</a></li>
-					<li>|</li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li>|</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav> 
 
-	<div class="container clearfix">
-		<div class="row">
-			<div class="main-column">
-				<section class="content-container">
-					<div class="clearfix">
-						<h1>About Me</h1>
-						<hr>
-						<br>
-						<img src="assets/images/LI-profile_AA.jpg" alt="Annalisa Alden" class="profile-img">
-						<div class="text">
-							<p>
-								Born in Canada, I spent my childhood in England and my teenage years in Florida. I then spent two years in Pennsylvania attending Bryn Athyn College and two more in Illinois attending Northwestern University, from which I graduated with a degree in Economics. For another two years I stayed in the area, working in retail management before relocating to North Carolina to pursue a career that put to use both my creative and problem-solving skills. That desire led me to enroll in the UNC Charlotte Coding Bootcamp.
-							</p>
-							<p>
-								In my free time I love drawing, writing, and playing sports, including ping pong, volleyball, soccer, and ultimate Frisbee. I also love to travel and can't wait to plan my next trip.
-							</p>
-						</div>
-					</div> 
-				</section>
-			</div> 
+  <head>
 
-			<div class="side-column clearfix">
-				<section class="content-container">
-					<h2>Connect with Me</h2>
-					<hr>
-					<br>
-					<div class="icon-row clearfix">
-						<div class="icon-column"><a href="https://github.com/iamtheluckyest" target="_blank"><img src="assets/images/github-icon.png" alt="Github icon" class="icon"></a></div>
-						<div class="icon-column"><a href="https://www.linkedin.com/in/annalisa-alden-04935527/" target="_blank"><img src="assets/images/linkedin-icon.png" alt="Linked In icon" class="icon"></a></div>
-						<div class="icon-column"><a href="https://stackoverflow.com/users/8289919/annalisa-alden" target="_blank"><img src="assets/images/stackoverflow-icon.png" alt="StackOverflow icon" class="icon"></a></div>
-					</div>
-				</section> 
-			</div> 
-		</div> <!-- end row -->
-	</div> <!--end container-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Annalisa Alden is a full-stack developer with experience in Javascript, MySQL, Node.js, Express, MongoDB and more.">
+    <meta name="author" content="Annalisa Alden">
 
-	<footer class="">
-		Copyright 2017 Annalisa Alden
-	</footer>
-</body>
+    <title>Annalisa Alden</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Annalisa</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Welcome!<br>It's great to see you.</h1>
+          <hr>
+          <p>Experienced in the full development stack, including jQuery, node.js, MySQL and more, I’m looking to put my creative and problem-solving skills to use for a team of motivated individuals who care about delivering quality products to their clients. </p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">I've got skills.</h2>
+            <hr class="light">
+            <p class="text-faded">HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, Sequelize, Handlebars, MySQL, Firebase, MongoDB. And ping pong.</p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="Annalisa_Alden_Resume.pdf">View Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3></h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+              <h3></h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+              <h3></h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>Made with Love</h3>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/hungry-hippo.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/hungry-hippo.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Website
+                  </div>
+                  <div class="project-name">
+                    Hungry Hippo
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/blog-review.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/blog-review.jpg" alt="">            
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Website
+                  </div>
+                  <div class="project-name">
+                    Blog Review
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/rock-paper-scissors.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/rock-paper-scissors.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Web Game
+                  </div>
+                  <div class="project-name">
+                    Rock, Paper, Scissors
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/gif-collection.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/gif-collection.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Website
+                  </div>
+                  <div class="project-name">
+                    Gif Collection
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/trivia.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/trivia.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Web Game
+                  </div>
+                  <div class="project-name">
+                    Movies Trivia
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/friend-finder.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/friend-finder.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Website
+                  </div>
+                  <div class="project-name">
+                    Friend Finder
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>See more projects on Github!</h2>
+        <a class="btn btn-default btn-xl sr-button" href="https://github.com/iamtheluckyest/">More Projects</a>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get in Touch!</h2>
+            <hr class="primary">
+            <p>Looking for a full-stack developer? Think I'd be a good fit for your team?<br>Just need a partner for ping pong? Let's talk.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p>(608) 481-1336</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:annalisa.alden@gmail.com">annalisa.alden@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
 </html>
